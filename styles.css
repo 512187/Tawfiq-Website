@@ -11,7 +11,7 @@ color: white;
 }
 
 nav {
-    background-color: white;
+    background-color: rgb(152, 152, 152);
     display: flex;
     width: 84%;
     margin: auto;
@@ -32,7 +32,7 @@ font-weight: bold;
 }
 
 nav ul li a:hover{
-    color:#555;
+    color:lightslategray;
 }
 
 .images {
@@ -43,4 +43,11 @@ nav ul li a:hover{
     top: 220px;
     transform: translate(-50);
     transition: bottom 1s; left: 1s;
+}
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
 }
