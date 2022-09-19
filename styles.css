@@ -1,5 +1,46 @@
 body {
 
-background-color: blue;
+background-color: #555
 
+}
+
+#kleur1 {
+
+color: white;
+
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    width: 84%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:#555;
+}
+
+.images {
+    height: 60%;
+    position: absolute;
+    left: 8%;
+    bottom: 0;
+    top: 220px;
+    transform: translate(-50);
+    transition: bottom 1s; left: 1s;
 }
