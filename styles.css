@@ -32,15 +32,15 @@ font-weight: bold;
 }
 
 nav ul li a:hover{
-    color:lightslategray;
+    color:rgb(181, 188, 182);
 }
 
 .images {
     height: 60%;
     position: absolute;
-    left: 8%;
+    left: 72%;
     bottom: 0;
-    top: 220px;
+    top: 225px;
     transform: translate(-50);
     transition: bottom 1s; left: 1s;
 }
@@ -50,4 +50,8 @@ nav ul li a:hover{
     position: absolute;
     bottom: 0;
     right: 100px;
+}
+
+.images:hover.shape {
+    bottom: 40px;
 }

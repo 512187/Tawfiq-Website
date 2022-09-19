@@ -26,12 +26,16 @@ body {
     }
     
     nav ul li a:hover{
-        color:lightslategray;
+        color:rgb(181, 188, 182);
     }
     
     #kleur2 {
         color: white;
     }
     
+    .spotify {
+        position: relative;
+        left: 792px;
+    }
 
     
