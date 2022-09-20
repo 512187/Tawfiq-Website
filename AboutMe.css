@@ -38,4 +38,12 @@ body {
         left: 792px;
     }
 
+    #foto5 {
+        top:-320px;
+        height: 900px;
+        right: -119px;
+        position: relative;
+        color: white;
+    }
+
     
